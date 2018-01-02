@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+    <div class="image"></div>
+    <h1>BUSINESS EVENT REGISTRATION FORM</h1>
+		
+	<script type="text/javascript" src="js/javascript.js"></script>
+	
+</head>
+<body>
+	
+<h2>Please provide your real information below</h2>
+    	
+    <form action="#"> 
+	    <div id="container">
+		   <table border="0">
+		   <!-- FIRST NAME DATA -->
+		        <tr>
+			        <td class="label_col">First Name:</td>
+					<td class="input_col"><input name="firstName" type="text" id="firstName" onblur="checkfirstName();"/><span id="firstNamePrompt"></span></td>
+				</tr>
+			<!-- LAST NAME DATA-->	
+				<tr>
+					<td class="label_col">Last Name:</td>
+					<td class="input_col"><input name="lastName" type="text" id="lastName" onblur="checklastName();"/><span id="lastNamePrompt"></span></td>
+			    </tr>
+			<!-- CONTACT NUMBER -->   
+			    <tr>
+				    <td class="label_col">Contact Number</td>
+					<td class="input_col"><input name="pNumber" type="text" id="pNumber" onblur="validPhone();" placeholder="xxxx-xxxx-xxxx"/><span id="pNumberPrompt"></span></td>
+				</tr>
+			<!-- DATE OF EVENT -->	
+				<tr>
+				    <td class="label_col">Date of Event:</td>
+					<td class="input_col"><input name="eventDate" type="text" id="eventDate" onblur="validDate();" placeholder="MM-DD-YYYY"><span id="eventDatePrompt"></span></td>
+			    </tr>
+			<!-- E-MAIL -->	
+				<tr>
+				    <td class="label_col">E-mail:</td>
+					<td class="input_col"><input name="email" type="text" id="email" placeholder="google@gmail.com"/></td>
+			    </tr>
+			<!-- EXPECTED ATTENDANCE #-->
+				<tr>
+			        <td class="label_col">Colleagues amount:</td>
+					<td class="input_col"><input name="Attendees" type="number" id="Attendees" min="1" max="10"></td>
+			    </tr>
+			<!-- EVENT LOCATION-->
+				<tr>
+			        <td class="label_col">Location:</td><br>
+					<td class="input_col"> 
+					    <input type="radio" name="location" value="hotel" checked/>Hotel 
+					    <input type="radio" name="location" value="restaurant"/>Restaurant
+					    <input type="radio" name="location" value="camping"/>Camping
+					</td><br>
+			    </tr>
+			
+			<!-- TICKET -->   	
+				<tr>
+			    <td class="label_col">Do you have a ticket already?</td><br>
+					<td class="input_col"> 
+					    <input type="radio" name="yesno" value="yes">Yes 
+					    <input type="radio" name="yesno" value="no">No
+					</td><br>
+			    </tr>
+
+			    <!-- FOOD SUGGESTIONS ON MEETING -->   	
+				<tr>
+				    <td class="label_col">Food suggestion</td><br>
+			       	<td>
+			       	<input type="checkbox" name="UF" value="UF" checked>Ukrainian food<br>
+                    <input type="checkbox" name="IF" value="IF">Italian food<br>
+				    <input type="checkbox" name="MF" value="MF">Mexican food<br>
+				    <input type="checkbox" name="CF" value="CF">Chinese food<br>						
+					<input type="checkbox" name="Other" value="Other">Other <input name="Other food" type="text" id="Other food"></td>
+				</tr>
+			<!-- QUESTION FOR MEETING FEEDBACK -->   	
+				<tr>
+				    <td class="label_col">What are your suggestions about business meeting format?</td><br>
+					<td><textarea rows="3" cols="30"></textarea></td>
+			    </tr>
+					<br>
+		    </div>
+	   </table>
+	 </form>
+
+	<button onclick="FakeSubmitButton()">Submit registration form</button>
+ 
+</body>
+</html>
