@@ -1,25 +1,26 @@
 html, body {
-	height: 100%;
-    	margin: 20px;
+  	height: 100%;
+	margin: 20px;
 	background-color: #FFFFFF;
 }
 
-.image {
-    /* The image used */
-    background-image: url("https://static.pexels.com/photos/356830/pexels-photo-356830.jpeg");
-    height: 300px;
-    width: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin: 0px auto 0px auto;
-    box-shadow: 10px 10px blue;
+.image {  /* The image used */
+    	background-image: url("https://static.pexels.com/photos/356830/pexels-photo-356830.jpeg");
+    	height: 300px; 
+    	width: auto;
+   	max-width: 100%;
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	position: relative;
+    	margin: 0px auto 0px auto;
+    	box-shadow: 10px 10px darkgray;
 }
 
 h1 {
+  margin: 80px;
 	text-align: center;
-	color: #8BFFC8;
+	color: blue;
 	font-family: sans-serif;
 }
 
@@ -29,35 +30,32 @@ h2 {
 }
 
 table {
-	margin: 0px auto 0px auto;
-	padding: 0px;
-	width: 100%;
+  	text-align: left;
+	padding: 0px 10px;
+  	margin: 0px auto 0px auto; 
+	max-width: 100%;
 	border-spacing: 0;
 	border-collapse: collapse;
-	text-align: left;
 }
 
 
 td {
 	vertical-align: top;
 	font-size: 16px;
-	padding-bottom: 5px;
-	text-align: center;
-}
-
-.container {
-	padding: 0px 10px;
-	position: relative;
-	text-align: center;
+	padding: 5px;
+  	text-align: left;
 }
 
 button {
-	margin: 20px auto 20px auto;
+	margin-top: 20px;
+	margin-left:auto; 
+ 	 margin-right:auto;
+  	margin-bottom: 20px;
 	display: block;
 	padding: 10px;
 	font-style: bold;
 	cursor: pointer;
 	font-size: 18px;
-	font-family: Open Sans;
+	font-family: oblique;
 	box-shadow: 10px 10px darkgray;
 }
