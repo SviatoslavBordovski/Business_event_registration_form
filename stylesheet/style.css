@@ -17,7 +17,7 @@ html, body {
     	box-shadow: 10px 10px darkgray;
 	}
 
-h1 	{
+h1 	{ /* Event name */
   	margin: 80px;
 	text-align: center;
 	color: blue;
