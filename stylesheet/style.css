@@ -17,12 +17,12 @@ html, body {
     	box-shadow: 10px 10px darkgray;
 	}
 
-h1 {
+h1 	{
   	margin: 80px;
 	text-align: center;
 	color: blue;
 	font-family: sans-serif;
-}
+	}
 
 h2 	{
 	text-align: center;
