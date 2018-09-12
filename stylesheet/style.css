@@ -39,7 +39,7 @@ table 	{ /* table styles */
 	}
 
 
-td 	{
+td 	{ /* table data styles */
 	vertical-align: top;
 	font-size: 15px;
 	padding: 5px;
