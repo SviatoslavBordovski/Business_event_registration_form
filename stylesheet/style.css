@@ -46,7 +46,7 @@ td 	{ /* table data styles */
   	text-align: left;
 	}
 
-button {
+button { /* Submit button styles */
 	margin-top: 20px;
 	margin-left:auto; 
  	margin-right:auto;
