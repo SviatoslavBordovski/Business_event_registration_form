@@ -23,8 +23,8 @@ h1 	{ /* Event name */
 	color: blue;
 	font-family: sans-serif;
 	}
-
-h2 	{
+ 
+h2 	{ /* action description */
 	text-align: center;
 	font-family: serif;
 	}
