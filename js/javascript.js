@@ -70,4 +70,4 @@ function validDate() {
 
 function FakeSubmitButton() {
     alert("Thank you for your submission. We will contact you as soon as possible!");
-} 
+}
