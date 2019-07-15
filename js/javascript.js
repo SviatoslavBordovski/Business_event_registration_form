@@ -3,7 +3,7 @@ function checkfirstName() {
 	var rel = /^[a-zA-Z\s\'\-]{2,16}$/;
 
 	
-	if(rel.test(firstName)) {  
+	if(rel.test(firstName)) {    
 		document.getElementById("firstNamePrompt").style.color="green"
 		document.getElementById("firstNamePrompt").innerHTML="<strong> Correct input</strong>";
 		return true;
