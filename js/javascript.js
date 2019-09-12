@@ -1,4 +1,4 @@
-function checkfirstName() {        
+function checkfirstName() {          
     var firstName = document.getElementById("firstName").value;
 	var rel = /^[a-zA-Z\s\'\-]{2,16}$/;
 
