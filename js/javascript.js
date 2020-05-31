@@ -1,7 +1,6 @@
 function checkfirstName() {
     var firstName = document.getElementById("firstName").value;
 	var rel = /^[a-zA-Z\s\'\-]{2,16}$/;
-
 	
 	if(rel.test(firstName)) {
 		document.getElementById("firstNamePrompt").style.color="green"
