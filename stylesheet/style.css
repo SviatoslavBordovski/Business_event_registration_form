@@ -6,7 +6,7 @@ html, body 	{
 
 .image {  /* Banner image used */
     	background-image: url("https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg");
-    	height: 300px; 
+    	height: 300px;
     	width: auto;
    	max-width: 100%;
     	background-position: center;
@@ -29,7 +29,7 @@ h2 	{ /* Action description */
 	font-family: serif;
 	}
 
-table 	{ /* Table styles */
+table 	{ /* Table */
   	text-align: left;
 	padding: 0px 10px;
   	margin: 0px auto 0px auto; 
@@ -39,14 +39,14 @@ table 	{ /* Table styles */
 	}
 
 
-td 	{ /* Table data styles */
+td 	{ /* Table data */
 	vertical-align: top;
 	font-size: 15px;
 	padding: 5px;
   	text-align: left;
 	}
 
-button { /* Submit button styles */
+button { /* Submit button */
 	margin: 20px auto 20px auto;
 	display: block;
 	padding: 10px;
