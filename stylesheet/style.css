@@ -19,7 +19,7 @@ html, body 	{
 
 h1 	{ /* Event name */
   	margin: 80px;
-	text-align: right;
+	text-align: center;
 	color: #0000FF;
 	font-family: sans-serif;
 	}
