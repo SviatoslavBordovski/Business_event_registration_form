@@ -24,12 +24,12 @@ h1 	{ /* Event name */
 	font-family: sans-serif;
 	}
  
-h2 	{ /* action description */
+h2 	{ /* Action description */
 	text-align: center;
 	font-family: serif;
 	}
 
-table 	{ /* table styles */
+table 	{ /* Table styles */
   	text-align: left;
 	padding: 0px 10px;
   	margin: 0px auto 0px auto; 
@@ -39,7 +39,7 @@ table 	{ /* table styles */
 	}
 
 
-td 	{ /* table data styles */
+td 	{ /* Table data styles */
 	vertical-align: top;
 	font-size: 15px;
 	padding: 5px;
