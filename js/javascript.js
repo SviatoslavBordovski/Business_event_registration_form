@@ -10,7 +10,7 @@ function checkfirstName() {
 
 	else {
 		document.getElementById("firstNamePrompt").style.color="red";
-		document.getElementById("firstNamePrompt").innerHTML="<strong> First name field required!</strong>";
+		document.getElementById("firstNamePrompt").innerHTML="<strong> First name field is required!</strong>";
 		return false;
     }
 }
