@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="stylesheet/style.css"><!-- CSS styles -->
     <title>FreeCodeCamp challenge</title>
-    <script type="text/javascript" src="js/javascript.js"></script><!-- Script which runs after the form submit -->
+    <script type="text/javascript" src="js/javascript.js"></script><!-- Script which runs after the form is submitted -->
 </head>
 <body>
 	<div class="image"></div>   <!-- Banner image -->
@@ -12,7 +12,7 @@
 	
 <h2>Please provide your real information below</h2>
     	
-    <form action="#">   <!-- Start of the Form --> 
+    <form action="#">   <!-- Start Form -->
 	    <div id="container">
 		   <table border="0">
 		   <!-- FIRST NAME -->
@@ -20,7 +20,7 @@
 			        <td class="label_col">First Name:</td>
 					<td class="input_col"><input name="firstName" type="text" id="firstName" onblur="checkfirstName();"/><span id="firstNamePrompt"></span></td>
 				</tr>
-			<!-- LAST NAME -->	
+			<!-- LAST NAME -->
 				<tr>
 					<td class="label_col">Last Name:</td>
 					<td class="input_col"><input name="lastName" type="text" id="lastName" onblur="checklastName();"/><span id="lastNamePrompt"></span></td>
