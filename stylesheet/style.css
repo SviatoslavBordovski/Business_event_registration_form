@@ -4,7 +4,7 @@ html, body 	{
 		background-color: #FFFFFF;
 		}
 
-.image {  /* Banner image */
+.image { /* Banner image */
     	background-image: url("https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg");
     	height: 300px;
     	width: auto;
