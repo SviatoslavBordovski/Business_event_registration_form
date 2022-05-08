@@ -47,7 +47,8 @@ td 	{ /* Table data */
 
 button { /* Submit button */
 	margin: 20px auto 20px auto;
-	display: relative;
+	display: block;
+	position: relative;
 	padding: 10px;
 	cursor: pointer;
 	font-size: 18px;
